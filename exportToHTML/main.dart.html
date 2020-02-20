@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>main.dart</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #000000;}
+.s1 { color: #008000; font-weight: bold;}
+.s2 { color: #000080; font-weight: bold;}
+.s3 { color: #808080; font-style: italic;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+main.dart</font>
+</center></td></tr></table>
+<pre>import <span class="s1">'package:flutter/material.dart'</span>;
+
+import <span class="s1">'home_insta.dart'</span>;
+
+<span class="s2">void </span>main() =&gt; runApp(MyApp());
+
+<span class="s2">class </span>MyApp <span class="s2">extends </span>StatelessWidget {
+  <span class="s3">// This widget is the root of your application.</span>
+  @override
+  Widget build(BuildContext context) {
+    <span class="s2">return </span>MaterialApp(
+      title: <span class="s1">'Flutter Demo'</span>,
+      theme: ThemeData(
+        brightness: Brightness.dark,
+        primarySwatch: Colors.blue,
+      ),
+      home: HomeInsta(),
+    );
+  }
+}
+</pre>
+</body>
+</html>

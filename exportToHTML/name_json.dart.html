@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>name_json.dart</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #000080; font-weight: bold;}
+.s1 { color: #000000;}
+.s2 { color: #008000; font-weight: bold;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+name_json.dart</font>
+</center></td></tr></table>
+<pre><span class="s0">class </span>Name {
+  <span class="s0">final </span>String name;
+
+  Name({<span class="s0">this</span>.name});
+
+  factory Name.fromJson(Map&lt;String, dynamic&gt; json) {
+    <span class="s0">return </span>Name(
+      name: json[<span class="s2">'name'</span>],
+    );
+  }
+}
+</pre>
+</body>
+</html>
