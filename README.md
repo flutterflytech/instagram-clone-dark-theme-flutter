@@ -4,7 +4,7 @@ A simple mobile application developed with Flutter based on Instagram UI and fun
 
 ## Home Page:
 
-![Insta Home](assets/images/insta home.gif)
+<img src = "assets/images/insta home.gif"\>
 
 
 
